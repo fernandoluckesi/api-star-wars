@@ -40,13 +40,17 @@ public class FilmEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long episodeId;
 
-    @NotBlank(message = "O titulo não pode estar vazio ou nulo")
-    @Column(nullable = false, unique = false)
+    @NotBlank(message = "O título não pode estar vazio ou nulo")
+    @Column(nullable = false, unique = true)
     private String title;
 
     @NotBlank(message = "O rastreamento de abertura não pode estar vazio ou nulo")
     @Column(nullable = false, unique = false, length = 3000)
     private String openingCrawl;
+
+    @NotNull(message = "A Versão não pode estar vazio ou nulo")
+    @Column(nullable = false, unique = false)
+    private Integer version;
 
     @NotBlank(message = "Diretor não pode estar vazio ou nulo")
     @Column(nullable = false, unique = false)
