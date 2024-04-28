@@ -1,26 +1,28 @@
 package com.orla.apistarwars.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
-import com.orla.apistarwars.config.RestTemplateConfig;
 import com.orla.apistarwars.dtos.FilmResponseDTO;
+import com.orla.apistarwars.services.FilmService;
 
-import java.time.LocalDateTime;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/films")
 public class FilmController {
 
-    @GetMapping
-    public FilmResponseDTO getAll() {
+    @Autowired
+    FilmService filmService;
 
-        return null;
+    @GetMapping("/{id}")
+    public ResponseEntity<Object> getById(@PathVariable Long id) {
+        var film = this.filmService.findById(id);
 
+        return ResponseEntity.ok().body(film);
     }
 
 }

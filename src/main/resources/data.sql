@@ -16,14 +16,20 @@ INSERT INTO FILMS (
     OPENING_CRAWL,
     DIRECTOR,
     PRODUCER,
-    RELEASE_DATE
+    RELEASE_DATE,
+    CREATED,
+    EDITED,
+    URL
 ) VALUES (
     'A New Hope',
     4,
     'It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire''s\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire''s\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....',
     'George Lucas',
     'Gary Kurtz, Rick McCallum',
-    '1977-05-25'
+    '1977-05-25',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/1/'
 ),
 (
     'The Empire Strikes Back',
@@ -31,7 +37,10 @@ INSERT INTO FILMS (
     'It is a dark time for the\r\nRebellion. Although the Death\r\nStar has been destroyed,\r\nImperial troops have driven the\r\nRebel forces from their hidden\r\nbase and pursued them across\r\nthe galaxy.\r\n\r\nEvading the dreaded Imperial\r\nStarfleet, a group of freedom\r\nfighters led by Luke Skywalker\r\nhas established a new secret\r\nbase on the remote ice world\r\nof Hoth.\r\n\r\nThe evil lord Darth Vader,\r\nobsessed with finding young\r\nSkywalker, has dispatched\r\nthousands of remote probes into\r\nthe far reaches of space....',
     'Irvin Kershner',
     'Gary Kurtz, Rick McCallum',
-    '1980-05-17'
+    '1980-05-17',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/2/'
 ),
 (
     'Return of the Jedi',
@@ -39,7 +48,10 @@ INSERT INTO FILMS (
     'Luke Skywalker has returned to\r\nhis home planet of Tatooine in\r\nan attempt to rescue his\r\nfriend Han Solo from the\r\nclutches of the vile gangster\r\nJabba the Hutt.\r\n\r\nLittle does Luke know that the\r\nGALACTIC EMPIRE has secretly\r\nbegun construction on a new\r\narmored space station even\r\nmore powerful than the first\r\ndreaded Death Star.\r\n\r\nWhen completed, this ultimate\r\nweapon will spell certain doom\r\nfor the small band of rebels\r\nstruggling to restore freedom\r\nto the galaxy...',
     'Richard Marquand',
     'Howard G. Kazanjian, George Lucas, Rick McCallum',
-    '1983-05-25'
+    '1983-05-25',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/3/'
 ),
 (
     'The Phantom Menace',
@@ -47,7 +59,10 @@ INSERT INTO FILMS (
     'Turmoil has engulfed the\r\nGalactic Republic. The taxation\r\nof trade routes to outlying star\r\nsystems is in dispute.\r\n\r\nHoping to resolve the matter\r\nwith a blockade of deadly\r\nbattleships, the greedy Trade\r\nFederation has stopped all\r\nshipping to the small planet\r\nof Naboo.\r\n\r\nWhile the Congress of the\r\nRepublic endlessly debates\r\nthis alarming chain of events,\r\nthe Supreme Chancellor has\r\nsecretly dispatched two Jedi\r\nKnights, the guardians of\r\npeace and justice in the\r\ngalaxy, to settle the conflict....',
     'George Lucas',
     'Rick McCallum',
-    '1999-05-19'
+    '1999-05-19',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/4/'
 ),
 (
     'Attack of the Clones',
@@ -55,7 +70,10 @@ INSERT INTO FILMS (
     'There is unrest in the Galactic\r\nSenate. Several thousand solar\r\nsystems have declared their\r\nintentions to leave the Republic.\r\n\r\nThis separatist movement,\r\nunder the leadership of the\r\nmysterious Count Dooku, has\r\nmade it difficult for the limited\r\nnumber of Jedi Knights to maintain \r\npeace and order in the galaxy.\r\n\r\nSenator Amidala, the former\r\nQueen of Naboo, is returning\r\nto the Galactic Senate to vote\r\non the critical issue of creating\r\nan ARMY OF THE REPUBLIC\r\nto assist the overwhelmed\r\nJedi....',
     'George Lucas',
     'Rick McCallum',
-    '2002-05-16'
+    '2002-05-16',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/5/'
 ),
 (
     'Revenge of the Sith',
@@ -63,7 +81,10 @@ INSERT INTO FILMS (
     'War! The Republic is crumbling\r\nunder attacks by the ruthless\r\nSith Lord, Count Dooku.\r\nThere are heroes on both sides.\r\nEvil is everywhere.\r\n\r\nIn a stunning move, the\r\nfiendish droid leader, General\r\nGrievous, has swept into the\r\nRepublic capital and kidnapped\r\nChancellor Palpatine, leader of\r\nthe Galactic Senate.\r\n\r\nAs the Separatist Droid Army\r\nattempts to flee the besieged\r\ncapital with their valuable\r\nhostage, two Jedi Knights lead a\r\ndesperate mission to rescue the\r\ncaptive Chancellor....',
     'George Lucas',
     'Rick McCallum',
-    '2005-05-19'
+    '2005-05-19',
+    '2024-04-18 19:15:17',
+    '2024-04-18 19:15:17',
+    'https://swapi.dev/api/films/6/'
 );
 
 CREATE TABLE CHARACTERS (
@@ -1965,11 +1986,11 @@ INSERT INTO FILMS_VEHICLES (
 
 CREATE TABLE SPECIES (
     ID INT PRIMARY KEY AUTO_INCREMENT,
-    SPECIES_URL VARCHAR(255)
+    SPECIE_URL VARCHAR(255)
 );
 
 INSERT INTO SPECIES (
-    SPECIES_URL
+    SPECIE_URL
 ) VALUES (
     'https://swapi.dev/api/species/1/'
 ),
@@ -2094,14 +2115,14 @@ INSERT INTO SPECIES (
 CREATE TABLE FILMS_SPECIES (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     FILM_EPISODE_ID INT,
-    SPECIES_ID INT,
+    SPECIE_ID INT,
     FOREIGN KEY (FILM_EPISODE_ID) REFERENCES FILMS(EPISODE_ID) ON UPDATE CASCADE ON DELETE CASCADE,
-    FOREIGN KEY (SPECIES_ID) REFERENCES SPECIES(ID) ON UPDATE CASCADE ON DELETE CASCADE
+    FOREIGN KEY (SPECIE_ID) REFERENCES SPECIES(ID) ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 INSERT INTO FILMS_SPECIES (
     FILM_EPISODE_ID,
-    SPECIES_ID
+    SPECIE_ID
 ) VALUES (
     4,
     1
@@ -2394,7 +2415,3 @@ INSERT INTO FILMS_SPECIES (
     3,
     37
 );
-
---     ID INT PRIMARY KEY AUTO_INCREMENT,
---     PLANET_URL VARCHAR(255)
--- );
