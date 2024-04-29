@@ -44,10 +44,6 @@ Abra o terminal e execute o comando `git clone git@github.com:fernandoluckesi/ap
 
 2. Execução da aplicação
 
-Acesse o diretótio onde está o projeto e execute `docker compose up` (Certifique-se de ter o Docker instalado)
-
-Ou
-
 Abra outro terminal e ainda no mesmo diretótio do projeto execute o comando `mvn spring-boot:run` e
 
 3. Realizar build do projeto :
@@ -160,130 +156,6 @@ Atualiza o texto de abertura (opening crawl) de um filme específico pelo episod
     {
       "id": 10,
       "character_url": "https://swapi.dev/api/people/10/"
-    },
-    {
-      "id": 11,
-      "character_url": "https://swapi.dev/api/people/11/"
-    },
-    {
-      "id": 16,
-      "character_url": "https://swapi.dev/api/people/16/"
-    },
-    {
-      "id": 20,
-      "character_url": "https://swapi.dev/api/people/20/"
-    },
-    {
-      "id": 21,
-      "character_url": "https://swapi.dev/api/people/21/"
-    },
-    {
-      "id": 32,
-      "character_url": "https://swapi.dev/api/people/32/"
-    },
-    {
-      "id": 33,
-      "character_url": "https://swapi.dev/api/people/33/"
-    },
-    {
-      "id": 34,
-      "character_url": "https://swapi.dev/api/people/34/"
-    },
-    {
-      "id": 35,
-      "character_url": "https://swapi.dev/api/people/35/"
-    },
-    {
-      "id": 36,
-      "character_url": "https://swapi.dev/api/people/36/"
-    },
-    {
-      "id": 37,
-      "character_url": "https://swapi.dev/api/people/37/"
-    },
-    {
-      "id": 38,
-      "character_url": "https://swapi.dev/api/people/38/"
-    },
-    {
-      "id": 39,
-      "character_url": "https://swapi.dev/api/people/39/"
-    },
-    {
-      "id": 40,
-      "character_url": "https://swapi.dev/api/people/40/"
-    },
-    {
-      "id": 41,
-      "character_url": "https://swapi.dev/api/people/41/"
-    },
-    {
-      "id": 42,
-      "character_url": "https://swapi.dev/api/people/42/"
-    },
-    {
-      "id": 43,
-      "character_url": "https://swapi.dev/api/people/43/"
-    },
-    {
-      "id": 44,
-      "character_url": "https://swapi.dev/api/people/44/"
-    },
-    {
-      "id": 46,
-      "character_url": "https://swapi.dev/api/people/46/"
-    },
-    {
-      "id": 47,
-      "character_url": "https://swapi.dev/api/people/47/"
-    },
-    {
-      "id": 48,
-      "character_url": "https://swapi.dev/api/people/48/"
-    },
-    {
-      "id": 49,
-      "character_url": "https://swapi.dev/api/people/49/"
-    },
-    {
-      "id": 50,
-      "character_url": "https://swapi.dev/api/people/50/"
-    },
-    {
-      "id": 51,
-      "character_url": "https://swapi.dev/api/people/51/"
-    },
-    {
-      "id": 52,
-      "character_url": "https://swapi.dev/api/people/52/"
-    },
-    {
-      "id": 53,
-      "character_url": "https://swapi.dev/api/people/53/"
-    },
-    {
-      "id": 54,
-      "character_url": "https://swapi.dev/api/people/54/"
-    },
-    {
-      "id": 55,
-      "character_url": "https://swapi.dev/api/people/55/"
-    },
-    {
-      "id": 56,
-      "character_url": "https://swapi.dev/api/people/56/"
-    },
-    {
-      "id": 57,
-      "character_url": "https://swapi.dev/api/people/57/"
-    },
-    {
-      "id": 58,
-      "character_url": "https://swapi.dev/api/people/58/"
-    },
-    {
-      "id": 59,
-      "character_url": "https://swapi.dev/api/people/59/"
     }
   ],
   "planets": [
@@ -318,14 +190,6 @@ Atualiza o texto de abertura (opening crawl) de um filme específico pelo episod
     {
       "id": 39,
       "vehicle_url": "https://swapi.dev/api/vehicles/39/"
-    },
-    {
-      "id": 40,
-      "vehicle_url": "https://swapi.dev/api/vehicles/40/"
-    },
-    {
-      "id": 41,
-      "vehicle_url": "https://swapi.dev/api/vehicles/41/"
     }
   ],
   "species": [
@@ -340,74 +204,6 @@ Atualiza o texto de abertura (opening crawl) de um filme específico pelo episod
     {
       "id": 6,
       "specie_url": "https://swapi.dev/api/species/6/"
-    },
-    {
-      "id": 11,
-      "specie_url": "https://swapi.dev/api/species/11/"
-    },
-    {
-      "id": 12,
-      "specie_url": "https://swapi.dev/api/species/12/"
-    },
-    {
-      "id": 13,
-      "specie_url": "https://swapi.dev/api/species/13/"
-    },
-    {
-      "id": 14,
-      "specie_url": "https://swapi.dev/api/species/14/"
-    },
-    {
-      "id": 15,
-      "specie_url": "https://swapi.dev/api/species/15/"
-    },
-    {
-      "id": 16,
-      "specie_url": "https://swapi.dev/api/species/16/"
-    },
-    {
-      "id": 17,
-      "specie_url": "https://swapi.dev/api/species/17/"
-    },
-    {
-      "id": 18,
-      "specie_url": "https://swapi.dev/api/species/18/"
-    },
-    {
-      "id": 19,
-      "specie_url": "https://swapi.dev/api/species/19/"
-    },
-    {
-      "id": 20,
-      "specie_url": "https://swapi.dev/api/species/20/"
-    },
-    {
-      "id": 21,
-      "specie_url": "https://swapi.dev/api/species/21/"
-    },
-    {
-      "id": 22,
-      "specie_url": "https://swapi.dev/api/species/22/"
-    },
-    {
-      "id": 23,
-      "specie_url": "https://swapi.dev/api/species/23/"
-    },
-    {
-      "id": 24,
-      "specie_url": "https://swapi.dev/api/species/24/"
-    },
-    {
-      "id": 25,
-      "specie_url": "https://swapi.dev/api/species/25/"
-    },
-    {
-      "id": 26,
-      "specie_url": "https://swapi.dev/api/species/26/"
-    },
-    {
-      "id": 27,
-      "specie_url": "https://swapi.dev/api/species/27/"
     }
   ],
   "created": "2024-04-18T19:15:17",
