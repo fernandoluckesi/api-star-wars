@@ -44,7 +44,11 @@ Abra o terminal e execute o comando `git clone git@github.com:fernandoluckesi/ap
 
 2. Execução da aplicação
 
-Abra outro terminal e ainda no mesmo diretótio do projeto execute o comando `mvn spring-boot:run` e
+No terminal e no diretótio onde está o projeto e execute `docker compose build` e depois `docker compose up` (Certifique-se de ter o Docker instalado)
+
+Ou
+
+No terminal e ainda no mesmo diretótio do projeto execute o comando `mvn spring-boot:run`
 
 3. Realizar build do projeto :
 
@@ -63,18 +67,18 @@ Retorna uma lista de todos os filmes.
 ```json
 [
   {
-    "title": "The Phantom Menace" ,
+    "title": "The Phantom Menace",
     "episodeId": 1,
     "created": "2024-04-18T19:15:17",
     "edited": "2024-04-18T19:15:17",
-    "url": "https://swapi.dev/api/films/4/",
+    "url": "https://swapi.dev/api/films/4/"
   },
   {
     "title": "Attack of the Clones",
     "episodeId": 2,
     "created": "2024-04-18T19:15:17",
     "edited": "2024-04-18T19:15:17",
-    "url": "https://swapi.dev/api/films/5/",
+    "url": "https://swapi.dev/api/films/5/"
   }
 ]
 ```
