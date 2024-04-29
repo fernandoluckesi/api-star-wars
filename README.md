@@ -74,6 +74,8 @@ json [ { "title": "The Phantom Menace", "episodeId": 1, "created": "2024-04-18T1
 "url": "https://swapi.dev/api/films/5/"
 } ... ]
 
+{"title": "Filme"}
+
 ### GET /films/{id}
 
 Retorna informações detalhadas de um filme específico pelo ID.
