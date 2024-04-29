@@ -79,9 +79,8 @@ Retorna uma lista de todos os filmes.
     "created": "2024-04-18T19:15:17",
     "edited": "2024-04-18T19:15:17",
     "url": "https://swapi.dev/api/films/5/",
-  },
-  ...
-];
+  }
+]
 ```
 
 ### GET /films/{episodeId}
@@ -134,7 +133,7 @@ Atualiza o texto de abertura (opening crawl) de um filme específico pelo episod
 
 ```json
 {
-  "openingCrawl": "Teste obj"
+  "openingCrawl": "New opening crawl"
 }
 ```
 
